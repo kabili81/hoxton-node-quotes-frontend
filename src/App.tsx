@@ -18,6 +18,8 @@ function App() {
         {
           quotes.map(item => <li>
             <h2>{item.name}</h2>
+            <h2>{item.age}</h2>
+            <img src={item.image} />
             <h3>{item.quote}</h3>
           </li>)
         }
